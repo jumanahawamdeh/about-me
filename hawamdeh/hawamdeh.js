@@ -1,4 +1,4 @@
- 'use strict';
+'use strict';
 // var love = prompt('Is the last name of \"jumana\" is \"hawamdeh\"?')
 // love = love.toLowerCase();
 // if (love == 'yes') { // YES, yES, yeS, Yes, YEs, yEs,
@@ -88,6 +88,7 @@ var j = [
    'Of course i do',
    'Sorry about that, wrong answer']
 ]
+function res (){
 
 for ( var i=0; i<5; i++) {
    var currentj = j[i];
@@ -114,7 +115,7 @@ switch (responseReply) {
 
 }
 
-}
+}} res ();
 
 // for (let j = 0; j < 3; j++) {
 //    var number = prompt('can you guess my height?');
@@ -129,6 +130,7 @@ switch (responseReply) {
 
 //  }
 // }
+function awnser(){
 var length = prompt ('can you guess my height ?');
 for (let j=0 ; j<3 ; j++)
 {
@@ -140,8 +142,10 @@ else if (length < 154 )
 else
 {alert('Correct answer ,you got 1 point');
     break;}
-    length = prompt(' correct you guess my heigt thanks ... ');}
+    length = prompt(' correct you guess my heigt thanks ... ');}} 
+    awnser();
 
+    function color (){
     var color = ['red', 'black', 'banana', 'blue', 'green', 'White'];
 var userreplies = prompt('what is the color that i like ?');
 userreplies = userreplies.toLowerCase();
@@ -161,6 +165,7 @@ switch (userreplies) {
            alert('wrong answer');
            var userreplies = prompt('please reanswer the question?and choose from these choice (purple , blue , white, black, green, broun, red , orang ,grey)');
        }
+       
 }
 alert('your score is '+ score)
 alert('the color that i like  '+ color[0] + ' ,' + color[1] + ', ' + color[2] + ', ' + color[3] + ' ,' + color[4] + ' and ' + color[5]);
@@ -169,4 +174,4 @@ console.log('name', name);
 console.log('userreplay', userreply);
 console.log('age', age);
 console.log('userreplies)', userreplies);
-// document.write('<h2>'+score+'</h2>')
+    }color();
